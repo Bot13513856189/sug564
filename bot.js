@@ -7,8 +7,6 @@ const figlet = require('figlet');   //WESO#0001
 const fs = require('fs');  //WESO#0001
 const ms = require('ms');  //WESO#0001
 const prefix = '-'
-
-
     }
 });
 
