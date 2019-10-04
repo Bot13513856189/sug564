@@ -9,36 +9,36 @@ const ms = require('ms');  //WESO#0001
 const prefix = '-'
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'باك') {  //WESO#0001
-      msg.reply('** :wink: وِلِـكُمِـ ﻧَوِرُتْ   :sparkling_heart:**');  //WESO#0001
+    if (msg.content === 'ip') {  //WESO#0001
+      msg.reply('**xPvPxCraft.com**');  //WESO#0001
     }
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'ويسو') {  //WESO#0001
-      msg.reply('**ويسو مات**');  //WESO#0001
+    if (msg.content === 'السلام عليكم') {  //WESO#0001
+      msg.reply('**و عليكم السيلام**');  //WESO#0001
     }
   });
 
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**لاتحتك يا اخوي لو سمحت**');  //WESO#0001
+    if (msg.content === 'هلا') {  //WESO#0001
+      msg.reply('**اهلين**');  //WESO#0001
     }
   });
   
 
   client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**حبك برص يا سافل**');  //WESO#0001
+    if (msg.content === 'برب') {  //WESO#0001
+      msg.reply('**تيت**');  //WESO#0001
     }
   });
 
 
   
    client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'هلا') {  //WESO#0001
-      msg.reply('**هلا بيك :heart: **');  //WESO#0001
+    if (msg.content === 'سلام عليكم') {  //WESO#0001
+      msg.reply('**و عليكم السيلام**');  //WESO#0001
     }
   });
 
@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' BAD Is The Best ','Just Do It'];
+    var setGame = [' System Bot ',`xPvPxCraft Best Server `,`xPvPxCraft`,' xPvPxCraft.com'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -3681,7 +3681,7 @@ reaction1.on("collect", r => {
 『-rules ====> يعرض لك قوانين السيرفر
 『-v2min ====> لصنع روم صوتي مؤقت
 『-inv ====> لدعوة البوت الى سيرفرك
-『 By ====> WESO#0001
+『 By ====> xPvPxCraft
 **
 `)
    message.author.sendEmbed(embed)
@@ -3739,7 +3739,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> WESO#0001
+『 By ====> xPvPxCraft
 **
 `)
    message.author.sendEmbed(embed)
@@ -3777,7 +3777,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> WESO#0001
+『 By ====> xPvPxCraft
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')
